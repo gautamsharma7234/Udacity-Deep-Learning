@@ -1,0 +1,11 @@
+First Activate Virtual Environment for TensorFlow:
+$ source ~/tensorflow/bin/activate
+
+
+(tensorflow)$ # You prompt should change (see example of how your prompt will look):
+(tensorflow) Gautams-MacBook-Air:Untitled gautamsharma$
+
+ Now you virtual environment is set and can your python code for tf
+
+After you have finished using tf (at the end of the day):
+(tensorflow)$ deactivate
