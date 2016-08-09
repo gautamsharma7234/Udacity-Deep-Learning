@@ -1,3 +1,5 @@
+This is only for Python 2.7 
+
 First Activate Virtual Environment for TensorFlow:
 $ source ~/tensorflow/bin/activate
 
