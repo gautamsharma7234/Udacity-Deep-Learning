@@ -4,8 +4,8 @@ First Activate Virtual Environment for TensorFlow:
 	1) For Python 
 	$ source ~/tensorflow/bin/activate
 
-	2) For jupyter notebook
-	$ source activate tf-env
+	2) For jupyter notebook (no need for this, you can directly choose virtual environment from jupyter notebook)
+	$ source activate tf-env 
 
 
 (tensorflow)$ # You prompt should change (see example of how your prompt will look):
