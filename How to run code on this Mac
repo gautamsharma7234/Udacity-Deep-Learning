@@ -1,13 +1,17 @@
 This is only for Python 2.7 
 
 First Activate Virtual Environment for TensorFlow:
-$ source ~/tensorflow/bin/activate
+	1) For Python 
+	$ source ~/tensorflow/bin/activate
+
+	2) For jupyter notebook
+	$ source activate tf-env
 
 
 (tensorflow)$ # You prompt should change (see example of how your prompt will look):
 (tensorflow) Gautams-MacBook-Air:Untitled gautamsharma$
 
- Now you virtual environment is set and can your python code for tf
+Now you virtual environment is set and can your python code for tf
 
 After you have finished using tf (at the end of the day):
 (tensorflow)$ deactivate
