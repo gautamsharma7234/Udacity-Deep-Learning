@@ -7,10 +7,10 @@ Both architectures describe how the neural network "learns" the underlying word 
 
 For both descriptions below, we assume that the current word in a sentence is wiwi.
 
-CBOW: The input to the model could be wi−2,wi−1,wi+1,wi+2wi−2,wi−1,wi+1,wi+2, the preceding and following words of the current word we are at. The output of the neural network will be wiwi. Hence you can think of the task as "predicting the word given its context"
+CBOW: The input to the model could be wi−2,wi−1,wi+1,wi+2 the preceding and following words of the current word we are at. The output of the neural network will be wiwi. Hence you can think of the task as "predicting the word given its context"
 Note that the number of words we use depends on your setting for the window size.
 
-Skip-gram: The input to the model is wiwi, and the output could be wi−1,wi−2,wi+1,wi+2wi−1,wi−2,wi+1,wi+2. So the task here is "predicting the context given a word". Also, the context is not limited to its immediate context, training instances can be created by skipping a constant number of words in its context, so for example, wi−3,wi−4,wi+3,wi+4wi−3,wi−4,wi+3,wi+4, hence the name skip-gram.
+Skip-gram: The input to the model is wi, and the output could be wi−1,wi−2,wi+1,wi+2. So the task here is "predicting the context given a word". Also, the context is not limited to its immediate context, training instances can be created by skipping a constant number of words in its context, so for example, wi−3,wi−4,wi+3,wi+4 hence the name skip-gram.
 Note that the window size determines how far forward and backward to look for context words to predict.
 
 According to Mikolov:
