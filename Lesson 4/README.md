@@ -1,3 +1,6 @@
+# Watch https://www.youtube.com/watch?v=D-ekE-Wlcds 
+
+
 # Q. What are the continuous bag of words and skip-gram architectures, in layman's terms?
 
 Both architectures describe how the neural network "learns" the underlying word representations for each word. Since learning word representations is essentially unsupervised, you need some way to "create" labels to train the model. Skip-gram and CBOW are two ways of creating the "task" for the neural network -- you can think of this as the output layer of the neural network, where we create "labels" for the given input (which depends on the architecture).
