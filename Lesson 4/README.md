@@ -1,4 +1,8 @@
-# Watch https://www.youtube.com/watch?v=D-ekE-Wlcds 
+# Before proceeding with the assignments, finish the following resources:
+1) Part 1 DL video - https://www.youtube.com/watch?v=TsEGsdVJjuA (notes are in book of this video)
+2) Part 2 DL video - https://www.youtube.com/watch?v=nuirUEmbaJU (notes are in book of this video)
+3) word2vec.pdf
+
 
 
 # Q. What are the continuous bag of words and skip-gram architectures, in layman's terms?
