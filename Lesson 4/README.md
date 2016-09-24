@@ -1,3 +1,5 @@
+# Note: Assignment 6 is incomplete due to lack of time.
+
 # Before proceeding with the assignments, finish the following resources:
 1) Part 1 DL video - https://www.youtube.com/watch?v=TsEGsdVJjuA (notes are in book of this video)
 2) Part 2 DL video - https://www.youtube.com/watch?v=nuirUEmbaJU (notes are in book of this video)
